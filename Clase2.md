@@ -20,9 +20,9 @@ actors:[
 {name:"Brenton",surname:"Thwaites"},
 {name:"Chadwick",surname:"Boseman"},
 ],
-country:"España",income:150000000, duration:126})
+country:"España",income:150000000, duration:126})`
 
-db.movies.insertMany([ 
+`db.movies.insertMany([ 
 {titulo: "Seven:los siete pecados capitales",year:1995, rating:5.0 , genre:"crimen", description:"Un solitario detective veterano a punto de retirarse...",
  actors:[{name:"Morgan",surname:"Freeman"},{name:"Brad",surname:"Pitt"}],
 country:"Estados Unidos",income:327000000, duration:127},
@@ -47,28 +47,26 @@ country:"Reino Unido",income:418000000, duration:127},
 5. Actualizar películas cambiando el genre “drama” por “bored”.
 
 `db.movies.insertOne({titulo: "Bajo la misma estrella",year:2014, rating:4.0 , genre:"drama", description:"Dos adolescentes pacientes de cancer..", 
-actors:[
-{name:"Shailene",surname:"Woodley"},
-{name:"Ansel",surname:"Elgort"}
-],
-country:"Estados Unidos",income:304186490, duration:126})
+	actors:[
+	{name:"Shailene",surname:"Woodley"},
+	{name:"Ansel",surname:"Elgort"}
+	],
+	country:"Estados Unidos",income:304186490, duration:126})`
 
-db.movies.updateMany(
-{genre:"drama"},
-{$set:{genre:"bored"}}
-)`
+	`db.movies.updateMany(
+	{genre:"drama"},
+	{$set:{genre:"bored"}}
+	)`
 
 6. Borrar todas las películas que tengan más de 30 años.
 
-`db.movies.deleteMany({year:{$lt:1990}})`
+	`db.movies.deleteMany({year:{$lt:1990}})`
 
 7. Buscar todas las películas argentinas.
 
-`db.movies.find(
-{country:"Argentina"}
-)`
+	`db.movies.find({country:"Argentina"})`
 
 8.Buscar todas las películas de acción con un buen rating (ej. > 4.0) que hayan salido los últimos 2 años.
   
-`db.movies.find({genre:"accion", rating:{$gt:4.0}, year:{$gt:2018}})`
+	`db.movies.find({genre:"accion", rating:{$gt:4.0}, year:{$gt:2018}})`
 
