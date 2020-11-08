@@ -1,5 +1,5 @@
-### Clase 3 - MongoDB
-## Actividad 3
+## Clase 3 - MongoDB
+### Actividad 3
 ___________________________
 1. Utilizar la misma base de datos de películas e insertar varias películas con distinto contenido.
 > agrego mas pelis
