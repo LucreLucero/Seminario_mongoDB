@@ -4,25 +4,26 @@ ___________________________________
 
 1. Crear una nueva base de datos de un sistema de streaming de video (ej. Netflix, Flow, Amazon Prime) que permita almacenar movies.
 
-`use netflix
-db.createCollection("movies")`
+`use netflix`
+
+`db.createCollection("movies")`
 
 2. Para cada movie, se debería guardar información como título (String), year (Number), rating (Number, entre 1.0 y 5.0), genre (String), description (String), actors (Array<String>), country (String), income (Number), duration (Number).
 3. Agregar películas usando insert(), insertOne() & insertMany().
 	
 `db.movies.insert({titulo: "Contratiempo",year:2016, rating:3.7 , genre:"suspenso", description:"Un joven empresario despierta en un hotel...", 
 actors:[{name:"Mario",surname:"Casas"},{name:"Ana",surname:"Wagener"}],
-country:"Estados Unidos",income:300000000, duration:104})`
+country:"Estados Unidos",income:300000000, duration:104})
 
-`db.movies.insertOne({titulo: "Dioses de egipto",year:2016, rating:4.4 , genre:"accion", description:"Despues de que set,dios de la oscuridad toma el control..", 
+db.movies.insertOne({titulo: "Dioses de egipto",year:2016, rating:4.4 , genre:"accion", description:"Despues de que set,dios de la oscuridad toma el control..", 
 actors:[
 {name:"Nickolaj",surname:"Coster-Waldau"},
 {name:"Brenton",surname:"Thwaites"},
 {name:"Chadwick",surname:"Boseman"},
 ],
-country:"España",income:150000000, duration:126})`
+country:"España",income:150000000, duration:126})
 
-`db.movies.insertMany([ 
+db.movies.insertMany([ 
 {titulo: "Seven:los siete pecados capitales",year:1995, rating:5.0 , genre:"crimen", description:"Un solitario detective veterano a punto de retirarse...",
  actors:[{name:"Morgan",surname:"Freeman"},{name:"Brad",surname:"Pitt"}],
 country:"Estados Unidos",income:327000000, duration:127},
@@ -53,7 +54,7 @@ country:"Reino Unido",income:418000000, duration:127},
 	],
 	country:"Estados Unidos",income:304186490, duration:126})`
 
-	`db.movies.updateMany(
+`db.movies.updateMany(
 	{genre:"drama"},
 	{$set:{genre:"bored"}}
 	)`
