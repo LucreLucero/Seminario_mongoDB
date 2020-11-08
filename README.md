@@ -1,6 +1,6 @@
-### Seminario MongoDB
+## Seminario MongoDB
 _____
-## Actividades:
+### Actividades:
 
 - [Clase 1](Clase1.md)
 
