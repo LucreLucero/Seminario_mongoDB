@@ -84,7 +84,7 @@ country:"Reino Unido",income:418000000, duration:127},
 {$set:{highlighted:true}}
 )
 
-### esta actualizacion me va a dar uno, mas de uno o ningun resultado
+### Esta actualizacion me va a dar uno, mas de uno o ningun resultado
 
 5. actualizar peliculas genre"drama" por bored
 
@@ -116,7 +116,7 @@ country:"Estados Unidos",income:304186490, duration:126})
 
 
 -----------------------
-### por convencion la coleccion se crea con nombre todo minuscula en plural en actors se puede hacer un object_id
+### Por convencion la coleccion se crea con nombre todo minuscula en plural en actors se puede hacer un object_id
 ### createdAt:newDAte() --> para ponerle la fecha
 
 ## CLASE 3
@@ -164,7 +164,7 @@ country:"Estados Unidos",income:304186490, duration:126})
 
 
 
-###Para hacer links a otro archivo -> [Otro archivo](archivo2.md)
+### Para hacer links a otro archivo -> [Otro archivo](archivo2.md)
 
 ----------------------------------
 ## CLASE 4
