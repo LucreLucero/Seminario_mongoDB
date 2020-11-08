@@ -1,8 +1,11 @@
 ## CLASE 1 
 _______________________
 > mongod
+
 > mongo
+
 > show dbs
+
 > help
 
 - ACTIVIDAD #1
