@@ -8,7 +8,7 @@ ______________________
 ______________________
 [Link a Documentacion de Postman](https://documenter.getpostman.com/view/9608978/TVmFkLic)
 
-[Link de mongoDB online](https://cloud.mongodb.com/v2/5fbe4cf3498f1578ade5e01c#metrics/replicaSet/5fbe4e4db8b867143cf35552/explorer/ecommerce)
+[Link de mongoDB online - MongoDB Atlas](https://cloud.mongodb.com/v2/5fbe4cf3498f1578ade5e01c#metrics/replicaSet/5fbe4e4db8b867143cf35552/explorer/ecommerce)
 
 ### Links de interes
 
@@ -16,4 +16,4 @@ ______________________
 
 [NodeJS con mongoose](https://fernando-gaitan.com.ar/introduccion-a-node-js-parte-13-crud-con-mongoose/)
 
-[funciones para crud](https://medium.com/@yugagrawal95/mongoose-mongodb-functions-for-crud-application-1f54d74f1b34)
+[Funciones para CRUD](https://medium.com/@yugagrawal95/mongoose-mongodb-functions-for-crud-application-1f54d74f1b34)
